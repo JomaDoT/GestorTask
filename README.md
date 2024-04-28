@@ -1,6 +1,6 @@
 # GestorTask
 
-CONFIGURACION BASE DE DATOS  CONEXION (Crear la base datos)
+*CONFIGURACION BASE DE DATOS  CONEXION (Crear la base datos)
 
 Se utilizo Oracle Sql Developer para la interfaz de la base de datos.
 Se utilizo la imagen doctorkirk/oracle-19c en docker para la base de datos de oracle.
@@ -8,7 +8,7 @@ Se utilizo la imagen doctorkirk/oracle-19c en docker para la base de datos de or
 Se corrio este comando en el cmd window para configurar y crear contenedor en docker.
 docker run --name oracle-19c -p 1521:1521 -e ORACLE_SID=orlc -e ORACLE_PWD=Jon@dt06 -e ORACLE_MEN=1500 doctorkirk/oracle-19c
 
-Se creo la base de datos y la conexion con los siguientes parametros
+Se creo la base de datos y la conexion con los siguientes parametros.
 
 NOMBRE: GestorTask
 USERNAME: jonathan
@@ -19,7 +19,7 @@ CONNECTIONTYPE: basic
 PORT: 1521
 SID: orlc
 
-Este es el script de la base de datos para generar las tablas...el archivo script esta en el repositorio
+Este es el script de la base de datos para generar las tablas... el archivo script esta en el repositorio.
 
 --------------------------------------------------------
 --  File created - Saturday-April-27-2024   
