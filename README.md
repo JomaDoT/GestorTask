@@ -14,10 +14,10 @@ Se creo la base de datos y la conexion con los siguientes parametros.
 2. USERNAME: jonathan
 3. PASSWORD: jonadt
 4. HOSTNAME: localHost
-ROLE: default
-CONNECTIONTYPE: basic
-PORT: 1521
-SID: orlc
+5. ROLE: default
+6. CONNECTIONTYPE: basic
+7. PORT: 1521
+8. SID: orlc
 
 ## Este es el script de la base de datos para generar las tablas... el archivo script esta en el repositorio.
 
