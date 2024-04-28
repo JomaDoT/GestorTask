@@ -10,10 +10,10 @@ docker run --name oracle-19c -p 1521:1521 -e ORACLE_SID=orlc -e ORACLE_PWD=Jon@d
 
 Se creo la base de datos y la conexion con los siguientes parametros.
 
-NOMBRE: GestorTask
-USERNAME: jonathan
-PASSWORD: jonadt
-HOSTNAME: localHost
+1. NOMBRE: GestorTask
+2. USERNAME: jonathan
+3. PASSWORD: jonadt
+4. HOSTNAME: localHost
 ROLE: default
 CONNECTIONTYPE: basic
 PORT: 1521
